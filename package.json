@@ -18,7 +18,7 @@
   "contributes": {
     "themes": [
       {
-        "label": "Azure DArk Color Theme",
+        "label": "Azure Dark Color Theme",
         "uiTheme": "vs-dark",
         "path": "./themes/Azure Dark-color-theme.json"
       }
