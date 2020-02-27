@@ -1,0 +1,30 @@
+{
+  "name": "azure-dark",
+  "displayName": "Azure Dark Color Theme",
+  "description": "A color theme inspired by the Framer Editor and Ayu Darker",
+  "version": "0.0.1",
+  "publisher": "@usetheplatform",
+  "engines": {
+    "vscode": "^1.21.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "icon": "logo.png",
+  "galleryBanner": {
+    "color": "#09F",
+    "theme": "dark"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Azure DArk Color Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Azure Dark-color-theme.json"
+      }
+    ]
+  },
+  "__metadata": {
+    "publisherDisplayName": "@usetheplatform"
+  }
+}
