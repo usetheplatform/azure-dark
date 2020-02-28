@@ -3,10 +3,14 @@
   "displayName": "Azure Dark Color Theme",
   "description": "A color theme inspired by the Framer Editor and Ayu Darker",
   "version": "0.0.1",
-  "publisher": "@usetheplatform",
   "engines": {
     "vscode": "^1.21.0"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/usetheplatform/azure-dark"
+  },
+  "publisher": "usetheplatform",
   "categories": [
     "Themes"
   ],
@@ -23,8 +27,5 @@
         "path": "./themes/Azure Dark-color-theme.json"
       }
     ]
-  },
-  "__metadata": {
-    "publisherDisplayName": "@usetheplatform"
   }
 }
