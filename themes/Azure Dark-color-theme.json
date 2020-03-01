@@ -286,7 +286,8 @@
     {
       "name": "Operators",
       "scope": [
-        "keyword.operator"
+        "keyword.operator",
+        "keyword.other",
       ],
       "settings": {
         "foreground": "#FF66BB"
@@ -334,7 +335,7 @@
     {
       "name": "Inherited class type",
       "scope": [
-        "entity.other.inherited-class"
+        "entity.other.inherited-class",
       ],
       "settings": {
         "foreground": "#39bae6"
@@ -751,7 +752,7 @@
       "settings": {
         "background": "#b3b1ad",
         "foreground": "#626a73"
-      }
-    }
+      },
+    },
   ]
 }
