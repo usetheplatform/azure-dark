@@ -10,4 +10,4 @@ Download the extension from https://marketplace.visualstudio.com/items?itemName=
 > You can also just grab the whole directory and put it at ~/.vscode/extensions or ~/.vscode-insiders/extensions
 
 ### Preview
-![Azure Dark Theme Preview](https://github.com/usetheplatform/azure-dark/blob/master/screenshots/preview.png "Theme Preview")
+![Azure Dark Theme Preview](screenshots/preview.png "Theme Preview")
