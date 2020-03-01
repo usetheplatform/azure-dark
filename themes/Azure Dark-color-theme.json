@@ -288,6 +288,7 @@
       "scope": [
         "keyword.operator",
         "keyword.other",
+        "keyword.pipe",
       ],
       "settings": {
         "foreground": "#FF66BB"
