@@ -11,3 +11,9 @@ Download the extension from https://marketplace.visualstudio.com/items?itemName=
 
 ### Preview
 ![Azure Dark Theme Preview](screenshots/preview.png "Theme Preview")
+
+#### React
+![Azure Dark Theme React Preview](screenshots/react_preview.png "Theme preview for React")
+
+#### Elm
+![Azure Dark Theme Elm Preview](screenshots/elm_preview.png "Theme preview for Elm")
