@@ -14,11 +14,14 @@ Download the extension from https://marketplace.visualstudio.com/items?itemName=
 
 ### Preview
 
-#### JavaScript
+#### JavaScript (Dark)
 ![Azure Dark Theme Preview](screenshots/preview.png "Theme Preview")
 
-#### React
+#### React (Dark)
 ![Azure Dark Theme React Preview](screenshots/react_preview.png "Theme preview for React")
 
-#### Elm
+#### Elm (Dark)
 ![Azure Dark Theme Elm Preview](screenshots/elm_preview.png "Theme preview for Elm")
+
+#### Elm (Light)
+![Azure Light Theme Elm Preview](screenshots/elm_preview_light.png "Light theme preview for Elm")

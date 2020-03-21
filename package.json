@@ -1,8 +1,8 @@
 {
   "name": "azure-dark",
-  "displayName": "Azure Dark Color Theme",
+  "displayName": "Azure Color Theme",
   "description": "A color theme inspired by Framer Syntax and Ayu Dark",
-  "version": "0.0.10",
+  "version": "0.1.0",
   "engines": {
     "vscode": "^1.21.0"
   },
@@ -25,6 +25,11 @@
         "label": "Azure Dark Color Theme",
         "uiTheme": "vs-dark",
         "path": "./themes/Azure Dark-color-theme.json"
+      },
+      {
+        "label": "Azure Light Color Theme",
+        "uiTheme": "vs",
+        "path": "./themes/Azure Light-color-theme.json"
       }
     ]
   }
