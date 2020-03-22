@@ -57,9 +57,19 @@
       }
     },
     {
+      "name": "Unit",
+      "scope": [
+        "constant.unit"
+      ],
+      "settings": {
+        "foreground": "#000E16",
+      }
+    },
+    {
       "name": "String",
       "scope": [
         "string",
+        "punctuation.definition.string",
         "constant.other.symbol"
       ],
       "settings": {
@@ -137,7 +147,15 @@
       "name": "Keyword",
       "scope": [
         "keyword",
-        "keyword.other"
+      ],
+      "settings": {
+        "foreground": "#859900"
+      }
+    },
+    {
+      "name": "Module Declaration",
+      "scope": [
+        "meta.declaration.module keyword.other"
       ],
       "settings": {
         "foreground": "#859900"
@@ -147,8 +165,10 @@
       "name": "Operators",
       "scope": [
         "keyword.operator",
+        "keyword.other",
         "keyword.pipe",
-        "keyword.unused"
+        "keyword.unused",
+        "punctuation",
       ],
       "settings": {
         "foreground": "#000E16"
@@ -161,7 +181,7 @@
         "punctuation.terminator"
       ],
       "settings": {
-        "foreground": "#b3b1adb3"
+        "foreground": "#000E16"
       }
     },
     {
@@ -170,7 +190,7 @@
         "punctuation.section"
       ],
       "settings": {
-        "foreground": "#b3b1ad"
+        "foreground": "#000E16"
       }
     },
     {
@@ -221,9 +241,18 @@
       }
     },
     {
-      "name": "Function name",
+      "name": "Function name type definition",
       "scope": [
-        "entity.name.function"
+        "meta.function.type-declaration",
+      ],
+      "settings": {
+        "foreground": "#1293D8"
+      }
+    },
+    {
+      "name": "Function name toplevel",
+      "scope": [
+        "entity.name.function.top_level",
       ],
       "settings": {
         "foreground": "#1293D8"
@@ -252,6 +281,15 @@
       }
     },
     {
+      "name": "Module in Type definition",
+      "scope": [
+        "meta.function.type-declaration meta.module.name"
+      ],
+      "settings": {
+        "foreground": "#b58900"
+      }
+    },
+    {
       "name": "Library function",
       "scope": [
         "support.function",
@@ -272,12 +310,12 @@
       }
     },
     {
-      "name": "Entity name",
+      "name": "Record fields",
       "scope": [
-        "entity.name"
+        "entity.name.record.field"
       ],
       "settings": {
-        "foreground": "#000E16"
+        "foreground": "#000E16",
       }
     },
     {
