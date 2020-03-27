@@ -254,7 +254,7 @@
       "scope": [
         "entity.name.function.top_level",
         "source.js entity.name.function",
-        "souce.ts entity.name.function",
+        "source.ts entity.name.function",
         "source.tsx entity.name.function",
         "source.jsx entity.name.function",
       ],
