@@ -253,6 +253,10 @@
       "name": "Function name toplevel",
       "scope": [
         "entity.name.function.top_level",
+        "source.js entity.name.function",
+        "souce.ts entity.name.function",
+        "source.tsx entity.name.function",
+        "source.jsx entity.name.function",
       ],
       "settings": {
         "foreground": "#1293D8"
@@ -310,6 +314,15 @@
       }
     },
     {
+      "name": "Types",
+      "scope": [
+        "entity.name.type",
+      ],
+      "settings": {
+        "foreground": "#b58900"
+      }
+    },
+    {
       "name": "Record fields",
       "scope": [
         "entity.name.record.field"
@@ -325,7 +338,7 @@
         "meta.tag.sgml"
       ],
       "settings": {
-        "foreground": "#000E16"
+        "foreground": "#1293D8"
       }
     },
     {
@@ -336,7 +349,7 @@
         "punctuation.definition.tag"
       ],
       "settings": {
-        "foreground": "#000E16"
+        "foreground": "#777"
       }
     },
     {
@@ -345,7 +358,7 @@
         "entity.other.attribute-name"
       ],
       "settings": {
-        "foreground": "#000E16"
+        "foreground": "#2aa198"
       }
     },
     {
@@ -359,14 +372,22 @@
       }
     },
     {
-      "name": "Library class/type",
+      "name": "Library type",
       "scope": [
         "support.type",
-        "support.class",
         "source.go storage.type"
       ],
       "settings": {
         "foreground": "#b58900"
+      }
+    },
+    {
+      "name": "Library class",
+      "scope": [
+        "support.class",
+      ],
+      "settings": {
+        "foreground": "#1293D8"
       }
     },
     {

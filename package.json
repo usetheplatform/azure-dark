@@ -2,7 +2,7 @@
   "name": "azure-dark",
   "displayName": "Azure Color Theme",
   "description": "A color theme inspired by Framer Syntax and Ayu Dark",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "engines": {
     "vscode": "^1.21.0"
   },
